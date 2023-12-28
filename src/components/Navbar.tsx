@@ -1,19 +1,15 @@
 import InfoAddress from "./InfoAddress";
+import SearchIp from "./SearchIp";
 
 
 const Navbar = () =>{
 
     return (
-        <div className="flex items-center justify-around bg-bgmobile bg-no-repeat bg-cover desktop:bg-bgdesktop h-[20rem] ">
-            <div className="flex flex-col items-center">
+        <div className="flex justify-center desktop:justify-around bg-bgmobile bg-no-repeat bg-cover desktop:bg-bgdesktop w-full h-[20rem] ">
+            <div className="flex flex-col items-center justify-evenly h-full w-full mt-28 desktop:mt-7 gap-5">
                 <h1 className="font-ribik font-bold text-3xl text-white">IP Address Tracker </h1>
-                <div>
-                    <input type="text" placeholder="Search for any IP address or domain" />
-                    <button className="text-white bg-very_dark_gray">&gt;</button>
-                </div>
-                <div>
+                    <SearchIp/>
                     <InfoAddress/>
-                </div>
             </div>
         </div>
         )
