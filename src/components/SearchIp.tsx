@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SearchIp = () => {
   return (
     <div className="flex justify-center w-11/12 desktop:w-1/3 h-12">
