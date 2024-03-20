@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className='h-full'>
+    <div className='h-screen'>
       <Navbar />
     </div>
   )
