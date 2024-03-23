@@ -13,9 +13,9 @@ export interface IpAddressState {
 }
 
 export interface FetchIpAddressArgs {
-  ipAddress: string ;
+  ipAddress: string;
 }
 
 export interface rejectValue {
-  rejectValue:{ error:string }
+  rejectValue: { error: string };
 }

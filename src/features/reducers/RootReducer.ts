@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import ipReducer from "./ipReducer";
+import ipAddressReducer from "./ipReducer";
 
-const RootReducer = combineReducers({
-  ipaddress: ipReducer 
-})
+const rootReducer = combineReducers({
+  ipaddress: ipAddressReducer,
+});
 
-export default RootReducer
+export default rootReducer;
